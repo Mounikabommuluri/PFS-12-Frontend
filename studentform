@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Details </title>
+</head>
+<body>
+    <div>
+        <h1><center> Student Details Form</center></h1>
+        <form>
+            <label>Name : </label>
+            <input type="text"placeholder="Enter Name"/>
+            <br/>
+            <label>Date Of Birth : </label>
+            <input type="date"/>
+            <br/>
+            <label>Age : </label>
+            <input type="number"name="age"placeholder="Enter Age"/>
+            <br/>
+            <label>College Name : </label>
+            <input type="text"placeholder="Enter College Name"/>
+            <br/>
+            <label>Phone Number</label>
+            <input type="number"name="Phone Number"placeholder="Enter Phone Number"/>
+            <br/>
+            <label>Gmail : </label>
+            <input type="text"placeholder="Enter Gmail" name="gmail"/>
+            <br/>
+            <label>Password : </label>
+            <input type="password"placeholder="Enter Password"/>
+            <br/>
+
+            <fieldset style="width: 10%">
+                <legend>Gender : </legend>
+                <input type="radio"id="male" name="gender"value="male" required/>
+                <label>male</label><br/>
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                  required
+                />
+                <label>Female</label><br/>
+                <br/>
+            </fieldset>
+            <fieldset style="width:10%">
+                <legend>Skills : </legend>
+                <input type="Checkbox"name="Skills"id="html"value="html"/>
+                <label>HTML</label>
+                <br/>
+                <input type="Checkbox"name="Skills"id="Css"value="html"/>
+                <label>CSS</label>
+                <br/>
+                <input type="Checkbox"name="Skills"id="Javascript"value="html"/>
+                <label>Javascript</label>
+                <br/>
+                <input type="Checkbox"name="Skills"id="Python"value="html"/>
+                <label>Python</label>
+                <br/>
+                
+            </fieldset>
+
+
+            </fieldset>
+
+        </form>
+    </div>
+    
+</body>
+</html>
