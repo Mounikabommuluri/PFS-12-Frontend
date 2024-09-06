@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS preference</title>
+    <Link href="./text2.css"rel="stylesheet"/>
+    <style>
+        /* preferance:Id <-class <-element */
+        /* preferance: Inline style <-Internal style <-external style */
+        /* element selector */
+        h1{
+            background-color: red;
+        }
+        .myClass{
+            background-color: yellow;
+        }
+        #myId{
+            background-color: blue;
+        }
+        p{
+            color: red;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="myId" class="myClass">Hi,Good Morning</h1>
+    <p style="color:aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis alias mollitia et optio similique voluptate numquam commodi aut minus amet. Unde quis ipsum, saepe sunt quasi corrupti minima assumenda repudiandae.</p>
+<hr/>
+<div class="container">
+    <h1 style="background-color: yellow;">first heading</h1>
+    <button style="background-color: blue;">click</button>
+    <div style="background-color: beige;">This is division</div>
+    <span style="background-color: orange;">This is span</span>
+    
+</div>    
+</body>
+</html>
