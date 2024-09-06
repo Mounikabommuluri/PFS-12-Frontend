@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="Pseudo1">Pseudo Heading</h1>
+        <p id="paral">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nemo doloribus dolor omnis quos temporibus provident eligendi sit soluta sed, assumenda neque distinctio nulla nesciunt possimus! Tempora vitae possimus numquam.</p>
+    </div>
+    <style>
+        /* element selector
+        h1{
+            color: brown;
+        }
+        id selector */
+        #pseudo1{
+            /* color: pink;
+            color: #f7a;
+            color: #34ab589c; */
+        }
+        .container{
+            /* background-color: rgb(221,119,51); */
+        }
+        /* pseudo element */
+        p::first-letter{
+            color: blue;
+            font-size: 3rem;
+        }
+        p::first-line{
+            background-color: orange;
+        }
+    </style>
+    
+</body>
+     <div class="container">
+        <h1 id="Pseudo1">pseudo Heading</h1>
+        <p Id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore non fugiat nobis quo adipisci aperiam, assumenda consequuntur quasi necessitatibus eos, qui, nemo aliquam porro exercitationem. Neque quibusdam illum fugiat voluptatem.</p>
+     </div>
+</html>
